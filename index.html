@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>🏋️‍♀️Khush Fitness Center</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        margin:0px;
+        padding:0px;
+        background: url("img/bg.jpg");
+        color:white;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 60px;
+        top: 2px;
+        background-color: black;
+    }
+    .left img{
+        width: 160px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        line-height: 18px;
+        font-size: 25px;
+    }
+    .mid{
+       display: block;
+       width: 36%;
+       margin: 12px auto;
+        /* border: 2px solid green; */
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top:33px;
+       display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+        color: white;
+    }
+    .navbar li{
+        display: inline-block; 
+        color: white;
+        font-size: 25px;
+       
+    }
+    .navbar li a{
+        padding: 34px 23px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(223, 141, 141);
+    }
+    .btn{
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color:black ;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        margin: 6px auto;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .btn:hover{
+       background-color: rgb(59, 56, 56);
+       }
+    .er{
+        border:2px solid white;
+        margin:  247px 142px;
+        padding:  75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto ;
+        font-size: 19px;
+        border-radius: 25px;  
+        font-family: 'Baloo Bhai 2', cursive;
+        border-radius: 8px;
+    }
+    .er h1{
+        text-align: center;
+    }
+    .er button{
+        display: block;
+        width: 511px;
+        margin: 21px auto;
+        font-size: 24px;
+    }
+    .khush{
+        padding: 8px 10px;
+     
+    }
+</style>
+<body>
+    <header class="header">
+   <!-- Left Box for Logo -->
+<div class="left">
+<img src="img/logo2.jpg" alt="">
+<div class="khush">🏃‍♀️</div>
+
+<div>Khush Fitness</div>
+</div>
+    <!-- Mid Box for Navbar -->
+<div class="mid">
+    <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact US</a></li>
+    </ul>
+</div>
+   <!-- Right box for Buttons -->
+<div class="right">
+<button class="btn">📞 Call Us Now</button><button class="btn">💌 Email Us</button>
+</div>
+
+    </header>
+    <div class="er">
+       <h1>💪 Join the best Gym of Bangalore now !</h1>
+       <form action="noaction.php">
+           <div class="form-group">
+               <input type="text" name="" placeholder="Enter your Name" >
+           </div>
+           <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age" >
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender" >
+        </div><div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality" >
+        </div>
+        <button class="btn">Submit</button>
+       </form>
+    </div>
+</body>
+</html>
