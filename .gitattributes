@@ -1,1 +1,4 @@
-*.js linguist-language=HTML CSS
+*.js linguist-detectable=false
+*.java linguist-detectable=false
+*.html linguist-detectable=true
+*.xml linguist-detectable=true
